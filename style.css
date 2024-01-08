@@ -1,0 +1,424 @@
+/* Shared Style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.merriweather-font {
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header or Banner style */
+.banner {
+    background-image: url(resources/Banner\ Image.png);
+    width: 1200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 545px;
+    margin: auto;
+}
+
+.banner-text {
+    margin-top: 30px;
+    width: 600px;
+    text-align: center;
+    padding: 160px 300px;
+}
+
+.banner-text p {
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.banner-text h2 {
+    color: white;
+    font-size: 66px;
+    font-weight: 900;
+}
+
+/* Main section style */
+/* discount section */
+.discount-section {
+    width: 680px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.discount-section>h2 {
+    color: #f00;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.discount-section>p {
+    color: #f00;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.discount-section>h3 {
+    color: #070211;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.discount-section>img {
+    width: 100%;
+}
+
+/* Welcome banner style */
+.welcome-banner {
+    display: flex;
+    width: 1000px;
+    padding: 52px 100px;
+    background-image: url(resources/Vectorrr.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.welome-banner-text {
+    width: 670px;
+}
+
+.welome-banner-text h2 {
+    width: 600px;
+    color: white;
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.welome-banner-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 25px 0;
+}
+
+.button-wb {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: transparent;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.button-wb:hover {
+    background-color: darkgray;
+    cursor: pointer;
+
+}
+
+.welcome-banner-img {
+    width: 300px;
+}
+
+.welcome-banner-img img {
+    width: 100%;
+}
+
+/* Event info styles */
+.event-info {
+    width: 1200px;
+    padding: 100px 0;
+    margin: 0 auto;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.event-info h3 {
+    margin: 10px 0;
+    font-size: 28px;
+    font-weight: 600;
+    color: #070211;
+}
+
+.event-info h3 span {
+    color: #f00;
+}
+
+.button-event-info {
+    margin: 20px 0;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: red;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* offer banner style */
+.offer-banner {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin: 100px auto;
+}
+
+.offer-banner-left {
+    width: 360px;
+    margin: auto 0;
+}
+
+.offer-banner-left h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #f00;
+    text-transform: uppercase;
+}
+
+.offer-banner-left h3 {
+    color: #070211;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 30px 0;
+}
+
+.offer-banner-left p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.offer-banner-right {
+    width: 350px;
+    margin: auto 0;
+}
+
+.offer-banner-right h3 {
+    color: #f00;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.offer-banner-right p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.offer-banner-middle {
+    width: 340px;
+    border: 10px solid red;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.offer-banner-middle img {
+    width: 100%;
+}
+
+/* holiday discount style */
+.holiday-discount {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.holiday-discount-text {
+    text-align: center;
+}
+
+.holiday-discount-text h4 {
+    color: #070211;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.holiday-discount-text h2 {
+    color: #070211;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.holiday-discount-text h2 span {
+    color: #f00;
+}
+
+.holiday-discount-text p {
+    width: 950px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.holiday-discount-img {
+    background-image: url(resources/Rectangle\ 2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    height: 518px;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.holiday-discount-img-left {
+    width: 60%;
+}
+
+.holiday-discount-img-left img {
+    width: 80%;
+    margin-left: 20%;
+}
+
+.holiday-discount-img-right {
+    background-image: url(resources/Rectangle\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.holiday-discount-img-right img {
+    width: 80%;
+    position: relative;
+    left: -40%;
+    top: 5%;
+}
+
+/* portfolio section style */
+.portfolio-section {
+    width: 1200px;
+    margin: 100px auto;
+}
+
+.portfolio-text h4 {
+    color: #f00;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.portfolio-text h3 {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.portfolio-text p {
+    margin-bottom: 35px;
+    width: 800px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.portfolio-img-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 20px 0;
+}
+
+.portfolio-img {
+    width: 380px;
+}
+
+.portfolio-img img {
+    width: 100%;
+}
+
+/* subscribe-section style */
+.subscribe-section {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe-section img {
+    margin: 10px 550px;
+}
+
+.subscribe-section h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.subscribe-section p {
+    width: 800px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 200px;
+}
+.subscribe{
+    display: flex;
+    width: 600px;
+    margin: 35px 300px;
+}
+.subscribe input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    padding: 15px 30px;
+    border-radius: 16px 0 0 16px;
+}
+.subscribe button{
+    width: 200px;
+    border: 0;
+    background-color: #f00;
+    border-radius: 0 16px 16px 0;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* footer styles */
+footer{
+    margin-top: 100px;
+    padding: 100px 120px;
+    background-color: #070211;
+}
+footer > div{
+    margin: 40px 0;
+}
+.footer-text-container{
+    display: flex;
+    justify-content: space-between
+}
+.footer-text h4, .footer-text-s h4{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer-text-s{
+    display: flex;
+}
+.footer-text-s h4{
+    margin-left: 10px;
+}
+.footer-img{
+    width: 350px;
+    margin: auto;
+}
+.footer-img img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.point{
+    cursor: pointer;
+}
